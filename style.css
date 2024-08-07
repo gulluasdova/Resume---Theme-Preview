@@ -1,0 +1,262 @@
+* {
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+/*Global*/
+.color-primary {
+    color: #bd5d38;
+}
+
+.font-extra {
+    font-family: "Mulish", sans-serif;
+}
+
+.menu {
+    background-color: #bd5d38;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+aside ul {
+    list-style: none;
+    padding: 20px 40px;
+}
+
+aside ul li {
+    text-align: center;
+    padding: 8px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    transition: all 0.5s;
+}
+
+aside ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    min-height: 100vh;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.content {
+    width: 100%;
+}
+
+#intro .content h1 {
+    font-weight: 700;
+    font-size: 96px;
+    color: #343a40;
+    margin-bottom: -10px;
+}
+
+#intro .content .contact {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#intro .content .contact a:hover {
+    color: #ba4516;
+}
+
+#intro .content .contact, #intro .content .info {
+    color: #868e96;
+}
+
+#intro .content .info {
+    font-size: 18.4px;
+    margin: 48px 0;
+}
+
+#intro .content .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#intro .content .social-icons li {
+    margin-right: 24px;
+}
+
+#intro .content .social-icons li a {
+    padding: 10px;
+    background-color: #495057;
+    color: white;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#intro .content .social-icons li a:hover {
+    background-color: #ba4516;
+}
+
+/*experience*/
+#experience .content h2 {
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: #343a40;
+}
+
+#experience .experiences .experience-item {
+    margin-bottom: 48px;
+}
+
+#experience .experiences .experience-item h4, #experience .experiences .experience-item h6 {
+    text-transform: uppercase;
+}
+
+#experience .experiences .experience-item h4 {
+    font-size: 32px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+#experience .experiences .experience-item h6 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 16px;
+}
+
+#experience .experiences .experience-item p, #experience .experiences .experience-item span {
+    font-size: 16px;
+}
+
+#experience .experiences .experience-item p {
+    color: #6c757d;
+}
+
+/*education*/
+#education h2{
+    font-size: 56px;
+    margin-bottom: 48px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+#education .education-item {
+    margin-bottom: 48px;
+}
+
+#education .education .education-item h3 {
+    font-size: 32px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+#education .education .education-item h5, #education .education .education-item p {
+    color: #6c757d;
+}
+
+#education .education .education-item h5 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+#education .education .education-item p {
+    font-size: 16px !important;
+    margin-bottom: 16px;
+}
+
+/*skills*/
+#skills .content {
+    color: #6c757d;
+}
+
+#skills .content h2 {
+    font-size: 56px;
+    margin-bottom: 48px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+#skills .skill-item h4 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+#skills .skill-item ul {
+    list-style: none;
+}
+
+#skills .skill-item li {
+    font-size: 48px;
+    margin-right: 16px;
+}
+
+#skills .skill-item .workflow-item {
+    font-size: 16px;
+    line-height: 0;
+}
+
+#skills .skill-item .workflow-item i, #awards li i {
+    margin: 0 8px 0 16px;
+}
+
+/*Interests*/
+#interests {
+    color: #6c757d;
+}
+
+#interests h2{
+    font-size: 56px;
+    margin-bottom: 48px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+#interests p {
+    margin-bottom: 16px;
+}
+
+/*awards*/
+#awards h2 {
+    font-size: 56px;
+    margin-bottom: 48px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+#awards .awards-contain ul {
+    list-style: none;
+    padding-left: 0 !important;
+    line-height: 0;
+}
+
+#awards .awards-contain  li p {
+    font-size: 16px;
+    color: #6c757d;
+}
